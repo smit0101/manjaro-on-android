@@ -1,0 +1,32 @@
+#!/usr/sbin/python
+#
+# This file is part of pacman_mirrors.
+#
+# pacman_mirrors is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# pacman_mirrors is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with pacman_mirrors.  If not, see <http://www.gnu.org/licenses/>.
+#
+# Author(s): Ramon Buldó <rbuldo@gmail.com>
+
+from pacman_mirrors import pacman_mirrors
+from pacman_mirrors.translation import i18n
+
+_ = i18n.language.gettext
+
+
+try:
+    pm = pacman_mirrors.PacmanMirrors()
+    pm.run()
+
+except KeyboardInterrupt:
+    print("\n" + _("Error: interrupted by the user."))
+    exit(1)

@@ -1,0 +1,36 @@
+%NAME%
+archlinuxarm-keyring
+
+%VERSION%
+20140119-1
+
+%DESC%
+Arch Linux ARM PGP keyring
+
+%URL%
+http://archlinuxarm.org
+
+%ARCH%
+any
+
+%BUILDDATE%
+1390101901
+
+%INSTALLDATE%
+1585337387
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+xu6@archlinuxarm.org>
+
+%SIZE%
+35840
+
+%REASON%
+1
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+sha256
+

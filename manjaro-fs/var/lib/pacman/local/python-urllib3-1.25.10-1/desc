@@ -1,0 +1,47 @@
+%NAME%
+python-urllib3
+
+%VERSION%
+1.25.10-1
+
+%BASE%
+python-urllib3
+
+%DESC%
+HTTP library with thread-safe connection pooling and file post support
+
+%URL%
+https://github.com/shazow/urllib3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1595470317
+
+%INSTALLDATE%
+1596399944
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%SIZE%
+672163
+
+%REASON%
+1
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-pysocks: SOCKS support
+python-brotli: Brotli support
+python-pyopenssl: security support
+

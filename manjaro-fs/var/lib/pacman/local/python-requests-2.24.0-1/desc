@@ -1,0 +1,47 @@
+%NAME%
+python-requests
+
+%VERSION%
+2.24.0-1
+
+%BASE%
+python-requests
+
+%DESC%
+Python HTTP for Humans
+
+%URL%
+http://python-requests.org
+
+%ARCH%
+any
+
+%BUILDDATE%
+1592622320
+
+%INSTALLDATE%
+1594239995
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%SIZE%
+464694
+
+%REASON%
+1
+
+%LICENSE%
+Apache
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+python-urllib3
+python-chardet
+python-idna
+
+%OPTDEPENDS%
+python-pysocks: SOCKS proxy support
+
